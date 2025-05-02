@@ -12,4 +12,7 @@ else:
         print("Tool low"
               elif guess > number;
               print("Tool high!")
- print(f"Wrong! The number was {number}")
+print(f"Wrong! The number was {number}")
+print("Play again? (y/n)")
+    if input().lower() != 'y':
+        break
