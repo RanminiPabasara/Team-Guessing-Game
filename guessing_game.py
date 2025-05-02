@@ -1,4 +1,5 @@
 import random
+
 #number = random.randint(1, 10)
 #print("Guess a number between 1 and 10")
 number = random.randint(1, 100)
@@ -12,3 +13,6 @@ else:
               elif guess > number;
               print("Tool high!")
  print(f"Wrong! The number was {number}")
+ print("Play again? (y/n)")
+    if input().lower() != 'y':
+        break
