@@ -28,3 +28,7 @@ import time
 start_time = time.time()
 # (At the end)
 print(f"Time taken: {time.time() - start_time:.2f}s")
+import time
+start_time = time.time()
+# (At the end)
+print(f"Time taken: {time.time() - start_time:.2f}s")
